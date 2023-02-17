@@ -1,5 +1,5 @@
 <h1>0x16. C - Simple Shell</h1>
-<hr><br>
+<br>
 <h2>Description</h2><br>
 <p>This is a project of simple shell, which provides a basic but essential tool for interacting with</p>
 <p>computer systems, and it serves as a foundation for more advanced shell programs.</p><br>
@@ -35,4 +35,4 @@
 <li>You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker</li>
 </ul><br>
 <h2>Tasks</h2>
-<hr><br>
+<br>
