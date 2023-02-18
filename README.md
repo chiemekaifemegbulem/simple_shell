@@ -36,3 +36,52 @@
 </ul><br>
 <h2>Tasks</h2>
 <br>
+<h3>0. Betty would be proud</h3>
+<p>Write a beautiful code that passes the Betty checks</p>
+<h3>1. Simple shell 0.1</h3>
+<p>Write a UNIX command line interpreter.</p>
+<ul>
+<li>Usage: simple_shell</li>
+</ul>
+<p>Your Shell should:</p>
+<ul>
+<li>Display a prompt and wait for the user to type a command. A command line always ends with a new line.</li>
+<li>The prompt is displayed again each time a command has been executed.</li>
+<li>The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.</li>
+<li>The command lines are made only of one word. No arguments will be passed to programs.</li>
+<li>If an executable cannot be found, print an error message and display the prompt again.</li>
+<li>Handle errors.</li>
+<li>You have to handle the “end of file” condition (Ctrl+D)</li>
+</ul>
+<p>You don’t have to:</p>
+<ul>
+<li>use the PATH</li>
+<li>implement built-ins</li>
+<li>handle special characters : ", ', `, \, *, &, #</li>
+<li>be able to move the cursor</li>
+<li>handle commands with arguments</li>
+</ul>
+<p>execve will be the core part of your Shell, don’t forget to pass the environ to it…</p>
+<h3>2. Simple shell 0.2</h3>
+<p>Simple shell 0.1 +</p>
+<ul>
+<li>Handle command lines with arguments</li>
+</ul>
+<h3>3. Simple shell 0.3 </h3>
+<p>Simple shell 0.2 +</p>
+<ul>
+<li>Handle the PATH</li>
+<li>fork must not be called if the command doesn’t exist</li>
+</ul>
+<h3>4. Simple shell 0.4</h3>
+<p>Simple shell 0.3 +</p>
+<ul>
+<li>Implement the exit built-in, that exits the shell</li>
+<li>Usage: exit</li>
+<li>You don’t have to handle any argument to the built-in exit</li>
+</ul>
+<h3>5. Simple shell 1.0</h3>
+<p>Simple shell 0.4 +</p>
+<ul>
+<li>Implement the env built-in, that prints the current environment</li>
+</ul>
